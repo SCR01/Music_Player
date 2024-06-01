@@ -1,0 +1,176 @@
+/* styles.css */
+body[data-theme='dark'] {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body[data-theme='light'] {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header button {
+    background-color: #1E90FF;
+    color: #000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .all-songs-div, .card-div, .playlist-div {
+    width: 30%;
+    background-color: #ADD8E6;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .all-songs-div label, .playlist-div input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .all-songs-div select, .playlist-div input, .playlist-div button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #1E90FF;
+    border-radius: 5px;
+  }
+  
+  .all-songs-div button, .playlist-div button {
+    background-color: #1E90FF;
+    color: #000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  #songCard {
+    text-align: center;
+  }
+  
+  #songCard img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  #songCard h2, #songCard h3 {
+    margin: 10px 0;
+  }
+  
+  #songCard button {
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  #songCard audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  #playlists div, #playlistSongs div {
+    background-color: #1E90FF;
+    color: #000;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Filter by genre section */
+.all-songs-div label {
+    font-family: "Bola", sans-serif;
+    font-size: 1.1em;
+    color: #1E90FF; /* Highlighted color */
+    font-weight: bold; /* Make font bold */
+  }
+  
+  .all-songs-div select {
+    font-family: "Bola", sans-serif;
+    font-size: 1em;
+    color: #000; /* Font color */
+    border: 2px solid #1E90FF; /* Highlighted color */
+    font-weight: bold; /* Make font bold */
+  }
+  
+  /* Music player section */
+  .card-div {
+    border: 2px solid #1E90FF; /* Border around image box */
+    border-radius: 10px; /* Border radius */
+  }
+  
+  #songCard h2,
+  #songCard h3 {
+    font-weight: bold; /* Bold font */
+  }
+  
+  /* Playlist section */
+  .playlist-div {
+    background-color: #1E90FF; /* Change to blue */
+  }
+  
+  #playlists div,
+  #playlistSongs div {
+    font-family: "Roboto", sans-serif; /* Different font */
+    color: #FFF; /* Font color */
+    background-color: purple; /* Change create playlist button to purple */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #playlists div:hover,
+  #playlistSongs div:hover {
+    background-color: #800080; /* Hover color */
+  }
+  
+  /* Create Playlist button */
+  #createPlaylist {
+    background-color: purple; /* Purple background color */
+    color: #FFF; /* Font color */
+    border: none;
+    padding: 10px;
+    margin-top: 10px; /* Add margin to separate from other elements */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #createPlaylist:hover {
+    background-color: #800080; /* Hover color */
+  }
+/* Music player section */
+.card-div {
+    border: 2px solid #1E90FF; /* Border around image box */
+    border-radius: 10px; /* Border radius */
+    background-color: #ADD8E6; /* Light background color */
+  }
+  
+  body[data-theme='dark'] .card-div {
+    background-color: #0c0b0b; /* Dark background color in dark mode */
+  }
+    
